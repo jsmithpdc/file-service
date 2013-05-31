@@ -29,29 +29,11 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
-	<servlet>
-		<servlet-name>jersey-serlvet-2</servlet-name>
-		
-		<servlet-class>com.sun.jersey.server.impl.container.servlet.ServletAdaptor</servlet-class>		
-		
-		<init-param>
-			<param-name>com.sun.jersey.config.property.packages</param-name>
-			<param-value>com.mkyong.rest</param-value>
-		</init-param>		
-		
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-
 	<servlet-mapping>
 		<servlet-name>file-service-servlet</servlet-name>
 		<url-pattern>/services/*</url-pattern>
 	</servlet-mapping>
 
-	<servlet-mapping>
-		<servlet-name>jersey-serlvet-2</servlet-name>
-		<url-pattern>/services-2/*</url-pattern>
-	</servlet-mapping>
-	
 	
 	<welcome-file-list>
 		<welcome-file>fileutil.jsp</welcome-file>
