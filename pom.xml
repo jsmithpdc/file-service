@@ -16,8 +16,8 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
-	
-	
+
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -73,6 +73,13 @@
 
 	<build>
 		<finalName>file-service</finalName>
+
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+			</resource>
+		</resources>
+
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -83,5 +90,5 @@
 			</plugin>
 		</plugins>
 	</build>
-			
+
 </project>
