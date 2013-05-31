@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+ tfoot, thead, tr, th, td {
+border:0pt none;
+font-family:inherit;
+font-size: 100%;
+font-style:inherit;
+font-weight:inherit;
+margin:0pt;
+padding:0pt;
+vertical-align:baseline;
+}
+body{
+	background: #fff;
+	line-height:14px;
+	font-size: 12px;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	margin:0pt;
+	cursor:default;
+	overflow: hidden;
+}
+html,body{
+	height:100%;
+	text-align: center;
+}
+.clear{
+	clear: both;	
+	visibility: hidden !important;
+	display: block !important;
+}
+img
+{
+	border:0px;
+}
+a{
+	text-decoration: none;
+}
+.container
+{
+	margin:auto;
+	width: 400px;
+}
+.navcontainer ul
+{
+	
+}
+.navcontainer ul li
+{
+	display: inline;
+	text-align: center;
+}
+.navcontainer ul li a:hover
+{
+	background-color:#CCCCCC;
+	color:#FFFFFF;
+}
+.navcontainer ul li a
+{
+	font-weight: 13px;
+	font-weight:bold;	
+	padding: 5px 5px 5px 5px;
+	background: #efefef;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 1px 1px;
+	position: relative;
+	color: #898989;
+	cursor: pointer;
+	width:55px;
+	*width:80px;
+	float:left;
+	margin-right:5px;
+}
+.navcontainer ul li a.active
+{
+	font-weight: 13px;
+	font-weight:bold;	
+	padding: 5px 5px 5px 5px;
+	background: #FFFFFF;
+	margin-bottom: -1px;
+	border: 1px solid #d0ccc9;	
+	border-width: 1px 1px 1px 1px;
+	top: 1px;
+	border-bottom: 0;
+	position: relative;
+	color: #898989;
+	cursor: pointer;
+	width:55px;
+	*width:80px;
+	float:left;
+	margin-right:5px;
+}
+#tabcontent
+{
+	min-height: 200px;
+	margin: 0px auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #d0ccc9;
+	text-align: left;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 11px;
+
+}
+#preloader
+{
+	
+	position: relative;
+	_position: relative;
+	z-index: 99;
+	left: 0;
+	top: 0;
+	width: 100px;
+	height: 100px;	
+	background: url(../images/loading.gif) no-repeat;	
+	margin:auto;
+}
