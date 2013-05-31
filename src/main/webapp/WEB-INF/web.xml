@@ -5,7 +5,7 @@
 	<display-name>Restful Web Application</display-name>
 
 	<servlet>
-		<servlet-name>jersey-serlvet</servlet-name>
+		<servlet-name>file-service-servlet</servlet-name>
 		
 		<servlet-class>com.sun.jersey.server.impl.container.servlet.ServletAdaptor</servlet-class>		
 		
@@ -43,7 +43,7 @@
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>jersey-serlvet</servlet-name>
+		<servlet-name>file-service-servlet</servlet-name>
 		<url-pattern>/services/*</url-pattern>
 	</servlet-mapping>
 
